@@ -1,0 +1,158 @@
+Package: ai.akemi.appinst
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: Karen/??? <karen@akemi.ai>
+Installed-Size: 364
+Pre-Depends: firmware (>= 5.0)
+Depends: ai.akemi.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Replaces: com.linusyang.appinst
+Provides: com.linusyang.appinst
+Filename: /packages/ai.akemi.appinst_2.1.1_iphoneos-arm~akemi-git-235aca6cddfbdc9fa87fcb5b2aec2df37ed6d65a.deb
+Size: 59716
+MD5sum: 891aef5b77f11e286edd1440dd905943
+SHA1: 86f090c7e88452fb89baf14beacbb26d2392003e
+SHA256: 5997771183c39eb8b5e13fc2bb511b1dfcb7eb39d3f10c9092ab088ec34aae09
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: A command-line IPA app installer.
+Tag: role::enduser, purpose::console
+Author: Karen/???, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appinst
+Name: appinst (App Installer)
+
+Package: bag.xml.tuberepair
+Version: 1.0-Beta-2
+Architecture: iphoneos-arm
+Maintainer: bag.xml, Requis
+Installed-Size: 360
+Depends: mobilesubstrate, preferenceloader
+Filename: /packages/bag.xml.tuberepair_1.0-Beta-2_iphoneos-arm.deb
+Size: 112372
+MD5sum: 7980faa2ee5ce03e934ca73dccc6d082
+SHA1: 3abb55c61184ebccb077b2bd3e690c2a7236624a
+SHA256: 8dc0fb828a3a854832f5fbcf6b7e8cdc34db6a18428fd1bb824c871daa62be10
+Section: Tweaks
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
+
+Package: bag.xml.vineredirect
+Version: 2.0-4+debug
+Architecture: iphoneos-arm
+Maintainer: bag.xml
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 6.0)
+Filename: /packages/bag.xml.vineredirect_2.0-4+debug_iphoneos-arm.deb
+Size: 26410
+MD5sum: 86f9f61a3638c44cb1cd3f65d6c35cf8
+SHA1: 1330a044ac80418b7507ff824e8fb73eeb0e1aa7
+SHA256: bab807d59134ca43ff6019d0a3a092bbecda17552ff5d1b0f4de1c024856c9fe
+Section: Tweaks
+Description: Allows you to redirect Vine's apiary traffic to a custom URL. UPDATE 2.0: Added a few refinements.
+Author: bag.xml
+Name: VineRedirect
+
+Package: com.skyglow.earthx
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: /packages/com.skyglow.earthx_1.0_iphoneos-arm.deb
+Size: 3900
+MD5sum: aede38341cad905ad22361b303d84562
+SHA1: d95fd65cc9d3bf39e7ac9f1f9aefc1ef2c08bdea
+SHA256: 644210b061605b42932dbf9c951826863dfdd9b422987139e50eda4f83ee2550
+Section: Tweaks
+Description: Enjoy Google Earth again with this small tweak!, just install it, and Google Earth will  work again. (Only tested on iOS 6)
+Author: Requis
+Name: EarthX
+
+Package: com.skyglow.itunesstorex
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Requis, Daph
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: /packages/com.skyglow.itunesstorex_1.0_iphoneos-arm.deb
+Size: 10024
+MD5sum: f2f96aae1dddb8436bca74599aec8b58
+SHA1: da00d1b016b81f99a9957c9fedfd2a14828a332b
+SHA256: 927287c428c5cdea231c597824a211db0af2c38d030bc45cfd66fff2ca95a5ac
+Section: Tweaks
+Description: Fix the iOS 6 AppStore connection issues, and restore its classic layout, furthermore this tweak has been updated to no longer consume as much battery as it did before, now being minimal.
+Author: Requis, Daph
+Name: iTunesLayoutFix
+
+Package: com.skyglow.mapsx
+Version: 3.2
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: /packages/com.skyglow.mapsx_3.2_iphoneos-arm.deb
+Size: 140024
+MD5sum: 96ead83899ea3b5ad0b62572eb4246bc
+SHA1: dbf746fcd0e259c89112132a6f95745075287080
+SHA256: f858a8c40ae49dffbe8e736a8584a0fdc5f7ef018bfb586fdfe3431b51a1b002
+Section: Tweaks
+Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...).
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
+Icon: file:///Library/Application%20Support/com.skyglow.mapsx/MapsX-Icon.png
+Name: MapsX
+
+Package: com.skyglow.stocksx
+Version: 2.3
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate, firmware (>= 2.0), firmware (<= 7.2), com.skyglow.weatherx
+Conflicts: com.ixmoe.1pwn.stockx
+Filename: /packages/StocksX-2.4.deb
+Size: 18640
+MD5sum: 2cc527709d172622ce444d6c2822dcdd
+SHA1: bcfdf0325e230b7fd4c109e93976cd5eca03e341
+SHA256: b6e084265211c1a4f1d685c397c5ae4f975eff1b6d6589592d929806fdfffdfe
+Section: Tweaks
+Description: Fix the stocks app from iPhoneOS 2 to iOS 7 by redirecting requests to my servers!
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.stocksx/depictions/index.html
+Name: StocksX
+
+Package: com.skyglow.weatherx
+Version: 3.4
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader, com.skyglow.stocksx
+Conflicts: com.ixmoe.1pwn.weatherx
+Filename: /packages/WeatherX.deb
+Size: 85106
+MD5sum: cf752c23741cfa2513444f2bcc870459
+SHA1: e3cb5fe093a7ba8e51a0ea8646c513e6490e1626
+SHA256: c78c056f2c6606081f2114ceaa4d556bb7802f39647ebc006d26a5c444c65eea
+Section: Tweaks
+Description: Fix iOS's weather app from iPhoneOS 2 to iOS 7, the weather widget in the notification center, and the temperature in the iPad clock app!
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
+Name: WeatherX
+
+Package: lol.owler.app
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: copy
+Installed-Size: 76
+Depends: firmware (>= 5.0)
+Filename: /packages/lol.owler.app_0.0.1-2+debug_iphoneos-arm.deb
+Size: 9914
+MD5sum: 410a958f5fbf26380940ab827ef7727a
+SHA1: 1d6e65fc604c2ca9f29d291135bdbde7436902ee
+SHA256: d9659adac6c1b27eb87558a99b3824ae2ba07ce9033d22450d7e9dbe7283be5e
+Section: Utilities
+Description: An awesome SwiftUI application!
+Author: copy
+Name: Owler
+
